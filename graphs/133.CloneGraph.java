@@ -7,6 +7,11 @@
 * recurion ended our base naturally become the the node whose neighbours we
 * had already dealt with see we did not nedd to do further recursion for them
 * so we would stop and the recursion would come back up naturally.
+*
+* WHEN TO USE:
+* we use this we want to go to each node but we need to know the processing we 
+* did to the previous nodes we dealt with, like in this case inorder to prevent
+* infinite recursion.
 */
 
 class Solution {
